@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background: white;
+}
+
+#menu{
+    background: white;
+    border-top: 2px solid rgb(80, 79, 79);
+    border-bottom: 2px solid rgb(80, 79, 79);
+}
+
+#ulmenu a{
+    color: rgb(80, 79, 79);
+}
+
+#ulmenu li a:hover{
+    color: rgba(10, 10, 10);
+   
+}
+
+#submenu{
+    background: white;
+}
+
+#global{
+    background: white;
+}
+
+/* pagina de inicio */
+#p-inicio{
+    border-left: 2px solid rgba(247, 243, 243, 0.8);
+    border-right: 2px solid rgba(247, 243, 243, 0.8);
+    background: rgba(255, 255, 236, 0.3);
+}
+
+.img-i{
+    border: 3px solid rgb(240, 179, 139);
+}
+
+/* button slider */
+#modoO{
+   color: rgba(245, 249, 252, 0.842);
+}
+
+/* REDES */
+#redes{
+    background-color: white;
+}
+
+#img-redes{
+    background-color:white;
+}
+
+footer{
+    background: rgba(41, 40, 40, 0.9);
+    
+}
+
+

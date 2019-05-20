@@ -1,0 +1,35 @@
+#global{
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 25px;
+    padding: 5px;
+} 
+
+.inf-vegano{
+    font-family: Helvetica, Arial;
+   
+}
+
+.inf-vegano h2{
+    font-size: 33px;
+    color: rgb(106, 189, 12);
+}
+
+.inf-vegano p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 28px;
+    font-size: 23px;
+    color: rgb(48, 47, 47);
+    text-align: justify;
+    
+}
+
+.inf-vegano img{
+    width: 70%;
+    height: 450px;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 2px solid rgb(241, 234, 234);
+}

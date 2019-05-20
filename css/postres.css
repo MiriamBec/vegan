@@ -1,0 +1,125 @@
+#global-postres{
+    width: 100%;
+    margin: 0px auto;
+    /* background-color:rgb(65, 247, 10); */
+    margin-top: 30px;
+    text-align: center;
+    height: 4083px;
+}
+
+h1{
+    font-size: 70px;
+    font-family: cursive;
+    color: rgb(247, 244, 64);
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    
+}
+
+#id-postres{
+    float: left;
+    /* background-color: purple; */
+    width: 60%;
+    
+}
+
+.img-postre{
+    width: 100%;
+    height: 500px;
+    border-bottom: solid 4px gray;
+}
+
+.img-postres{
+    width: 89%;
+    border: solid 4px gray;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    
+}
+
+.img-postre:hover {
+    cursor: pointer;
+    filter: opacity(.8);
+   
+}
+
+
+.img-postres h2{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: cursive;
+    
+}
+
+.img-postres h2:hover{
+    color: rgb(50, 241, 107);
+    cursor: pointer;
+}
+
+
+/* RECOMENDACIONES EN POSTRES */
+#recomendacion-postres{
+    margin: 0px auto;
+    width: 28%;
+    float: right;
+    /* background-color: orangered; */
+}
+
+.img-recomen-postres{
+    margin: 0px auto;
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    margin: 5px;
+    margin-top: 30px;
+   
+}
+
+.img-recomen-postres:hover{
+    cursor: pointer;
+}
+
+.recomen-postres{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.recomen-postres-a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+    height: 298px;
+    /* background-color: rgba(8, 243, 231, 0.5); */
+    text-align: center;
+    margin-top: 11px;
+}
+
+.recomen-postres-a a{
+    color: rgb(48, 47, 47);
+    font-size: 35px;
+    display: block;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+    margin-top: 37%;
+    text-transform: uppercase;
+}
+
+.ver-mas{
+    font-size: 17px;
+    width: 110px;
+    height: 40px;
+    background-color: rgb(255, 2, 99);
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border: solid 3px rgb(255, 2, 99);
+    color: white;
+}

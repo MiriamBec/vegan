@@ -1,0 +1,62 @@
+ body{
+    background: rgb(4, 0, 22);
+}
+
+header{
+    background: rgb(4, 0, 22);
+}
+
+#menu{
+    background: rgb(4, 0, 22);
+    border-top: 2px solid rgb(190, 253, 190);
+    border-bottom: 2px solid rgb(190, 253, 190);
+}
+
+#ulmenu a{
+    color: rgb(190, 253, 190);
+}
+
+#ulmenu li a:hover{
+    color: white;
+}
+
+#submenu{
+    background: rgb(4, 0, 22);
+}
+
+#global{
+    background: rgb(4, 0, 22);
+}
+
+/* pagina de inicio */
+
+#p-inicio{
+    border-left: 2px solid rgba(82, 80, 80, 0.8);
+    border-right: 2px solid rgba(82, 80, 80, 0.8);
+    background: rgb(4, 0, 22);
+}
+
+.img-i{
+    border: 3px solid rgb(243, 120, 83); 
+}
+
+/* button slider */
+#modoO{
+    color:  black;
+ }
+ 
+/* REDES */
+#redes{
+    background-color: rgb(4, 0, 22);
+}
+
+#img-redes{
+    background-color: rgb(4, 0, 22);
+}
+
+
+
+footer{
+    background: rgba(167, 230, 125, 0.9);
+}
+
