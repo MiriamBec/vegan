@@ -139,27 +139,30 @@ header{
     text-align: center;
 }
 
-.img-p{
+.img-a{
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
    width: 95%;
-   height: 90px;
+   height: 75px;
    background-color: rgb(20, 20, 20, 0.5);
    text-align: center;
-   
+   cursor: pointer;
+   padding-top: 37px;
 }
 
-.img-p p{
-    padding-top: 25px;
+.img-a a{
+    /* padding-top: 25px; */
     color: white;
     font-weight: bold;
     font-size: 25px;
-    font-family: 'cursive';
-  
-   
-
+    font-family: fantasy;
+    cursor: pointer;
+    text-decoration: none;
+}
+.img-a a:hover{
+    color:rgb(192, 186, 186);
 }
 
 
