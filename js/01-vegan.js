@@ -86,7 +86,7 @@ setDarkModeCheckbox();
 
 
 if (window.location.href.indexOf('postres') > -1) {
-    var lal = document.getElementsByClassName('recomen-postres-a');
+    var lal = document.getElementsByClassName('recomen-postres-p');
     
 
     for(var i = 0; i < lal.length; i++) {

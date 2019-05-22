@@ -47,20 +47,21 @@ h1{
 }
 
 
-.img-postres h2{
-    font-size: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: cursive;
+.a-postre{
+    display: block;
     color: white;
-    
+    font-weight: bold;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 35px;
+    padding-top: 15px;
+    padding-bottom: 23px;
 }
 
-.img-postres h2:hover{
+.a-postre:hover{
     color: rgb(50, 241, 107);
     cursor: pointer;
 }
-
 
 /* RECOMENDACIONES EN POSTRES */
 #recomendacion-postres{
@@ -90,7 +91,7 @@ h1{
     text-align: center;
 }
 
-.recomen-postres-a{
+.recomen-postres-p{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -102,7 +103,7 @@ h1{
     margin-top: 11px;
 }
 
-.recomen-postres-a a{
+.recomen-postres-p p{
     color: rgb(48, 47, 47);
     font-size: 35px;
     display: block;

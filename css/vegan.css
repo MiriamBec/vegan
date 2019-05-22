@@ -145,15 +145,16 @@ header{
    left: 50%;
    transform: translate(-50%, -50%);
    width: 95%;
-   height: 75px;
+   height: 110px;
    background-color: rgb(20, 20, 20, 0.5);
    text-align: center;
    cursor: pointer;
-   padding-top: 37px;
 }
 
 .img-a a{
-    /* padding-top: 25px; */
+    padding-top: 37px;
+    display: block;
+    height: 75%;
     color: white;
     font-weight: bold;
     font-size: 25px;
@@ -162,7 +163,7 @@ header{
     text-decoration: none;
 }
 .img-a a:hover{
-    color:rgb(192, 186, 186);
+    color:rgb(194, 199, 190);
 }
 
 
