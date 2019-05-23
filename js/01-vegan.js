@@ -3,6 +3,7 @@
 var theme = document.getElementById('theme');
 var theme_inf = document.getElementById('theme-inf-vegano');
 var theme_postres = document.getElementById('theme-postres');
+var theme_tartas = document.getElementById('theme-tartas');
 var facebookC = document.getElementById('facebookC');
 var instagramC = document.getElementById('instagramC');
 var twitterC = document.getElementById('twitterC');
@@ -53,7 +54,10 @@ function setDarkMode() {
         theme_inf.setAttribute('href', 'css/inf-vegano-dark.css');
     }
     if (window.location.href.indexOf('postres') > -1) {
-        theme_postres.setAttribute('href', 'css/postres-dark.css')
+        theme_postres.setAttribute('href', 'css/postres-dark.css');
+    }
+    if (window.location.href.indexOf('tartas') > -1) {
+        theme_tartas.setAttribute('href', 'css/tartas-dark.css');
     }
     facebookC.setAttribute('src', 'imagenes/facebookC.png');
     instagramC.setAttribute('src', 'imagenes/instagramC.png');
@@ -70,6 +74,9 @@ function setLightMode() {
     }
     if (window.location.href.indexOf('postres') > -1) {
         theme_postres.setAttribute('href', 'css/postres.css')
+    }
+    if (window.location.href.indexOf('tartas') > -1) {
+        theme_tartas.setAttribute('href', 'css/tartas.css')
     }
     facebookC.setAttribute('src', 'imagenes/facebook1.png');
     instagramC.setAttribute('src', 'imagenes/instagram1.png');
