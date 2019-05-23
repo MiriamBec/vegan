@@ -122,5 +122,10 @@ las-tartas{
     padding: 5px;
     cursor: pointer;
     border: solid 3px rgb(255, 2, 99);
-    color: white;
 }
+
+.ver-mas a{
+    color: white;
+    text-decoration: none;
+}
+
