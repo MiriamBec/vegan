@@ -84,23 +84,40 @@ setDarkModeCheckbox();
 
 // EN POSTRES
 
-
 if (window.location.href.indexOf('postres') > -1) {
-    var lal = document.getElementsByClassName('recomen-postres-p');
+    var recomen_postres = document.getElementsByClassName('recomen-postres-p');
     
 
-    for(var i = 0; i < lal.length; i++) {
-        lal[i].addEventListener('mouseover', function () {
+    for(var i = 0; i < recomen_postres.length; i++) {
+        recomen_postres[i].addEventListener('mouseover', function () {
             this.style.background = 'rgba(8, 243, 231, 0.5)';
-            this.getElementsByClassName('sd')[0].style.display = 'block';
+            this.getElementsByClassName('img-over')[0].style.display = 'block';
         });
 
-        lal[i].addEventListener('mouseout', function () {
+        recomen_postres[i].addEventListener('mouseout', function () {
             this.style.background = 'none';
-            this.getElementsByClassName('sd')[0].style.display = 'none';
+            this.getElementsByClassName('img-over')[0].style.display = 'none';
         });
     }
    
+}
+
+// TARTAS
+
+if(window.location.href.indexOf('tartas') > -1) {
+    var las_tartas2 = document.getElementsByClassName('las-tartas-2');
+
+    for(var i = 0; i < las_tartas2.length; i++) {
+        las_tartas2[i].addEventListener('mouseover', function() {
+            this.style.background = 'rgba(95, 207, 4, 0.5)';
+            this.getElementsByClassName('img-over')[0].style.display = 'block';
+        });
+
+        las_tartas2[i].addEventListener('mouseout', function () {
+            this.style.background = 'none';
+            this.getElementsByClassName('img-over')[0].style.display = 'none';
+        });
+    }
 }
 
 
