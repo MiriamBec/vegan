@@ -1,0 +1,106 @@
+#receta{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+/* IMAGEN DE FONDO */
+
+#img-prin{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#img-principal{
+    width: 100%;
+    height: 225px;
+}
+
+#img-prin-a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 210px;
+    background-color: rgba(2, 2, 2, 0.39);
+    text-align: center;
+    margin-top: -1px;
+    padding-top: 12px;
+}
+
+#img-prin-a a{
+    /* text-decoration: none; */
+    /* color: rgb(255, 255, 227); */
+    color: rgb(255, 230, 193);
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+#img-prin-a a:hover{
+    color: white;
+}
+
+#la-receta{
+    position: relative;
+    margin: 0px auto;
+    text-align: center;
+    width: 65%;
+    margin-top: -130px;
+    /* background-color: rgb(165, 101, 42); */
+    background-color: white;
+    padding: 40px;
+    border: 3px solid grey;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 126, 126, 0.432);
+   
+    
+}
+
+#la-receta p{
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+}
+
+#la-receta h1{
+    color: rgb(255, 2, 99);
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+#img-receta{
+    margin: 0px auto;
+    /* text-align: center; */
+    height: 300px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-bottom: 2px solid gainsboro;
+}
+
+#la-receta img{
+    border: 2px solid rgb(248, 180, 168);
+    border-radius: 3px;
+    float: left;
+    width: 36%;
+    height: 300px;
+
+}
+
+#ingredientes{
+    width: 50%;
+    height: 300px;
+    float: right;
+    /* margin-right: 50px; */
+    background-color: aquamarine;
+}
+
+#ingredientes p{
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgb(136, 132, 132);
+}
+
