@@ -45,6 +45,8 @@
     color: white;
 }
 
+/* RECETA */
+
 #la-receta{
     position: relative;
     margin: 0px auto;
@@ -68,39 +70,85 @@
 
 #la-receta h1{
     color: rgb(255, 2, 99);
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 15px;
 }
 
+/* IMG RECETA*/
+
 #img-receta{
     margin: 0px auto;
-    /* text-align: center; */
+    text-align: center;
     height: 300px;
-    margin-bottom: 30px;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 25px;
     border-bottom: 2px solid gainsboro;
 }
 
-#la-receta img{
+#img-receta img{
     border: 2px solid rgb(248, 180, 168);
     border-radius: 3px;
-    float: left;
-    width: 36%;
+    width:300px;
     height: 300px;
-
 }
 
+/* INGREDIENTES */
+
 #ingredientes{
-    width: 50%;
-    height: 300px;
-    float: right;
-    /* margin-right: 50px; */
-    background-color: aquamarine;
+    margin: 0px auto;
+    text-align: justify;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid gainsboro;
+    /* background-color: blue; */
 }
 
 #ingredientes p{
     padding-bottom: 10px;
     font-size: 30px;
-    color: rgb(136, 132, 132);
+    color: rgb(34, 34, 34);
 }
 
+#ingredientes ul{
+    margin-left: 30px;
+    line-height: 34px;
+    margin-right: 120px;
+}
+
+#ingredientes li {
+    font-family: cursive;
+    font-size: 22px;
+    color: rgb(73, 73, 73);
+    
+}
+
+/* PREPARACION */
+
+#preparacion{
+    margin: 0px auto;
+    text-align: justify;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+#preparacion p{
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgb(34, 34, 34);
+}
+
+#preparacion ol{
+    margin-left: 30px;
+    margin-right: 110px;
+    line-height: 28px;
+}
+
+#preparacion li {
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgb(73, 73, 73);
+    padding-bottom: 25px;
+    
+}
