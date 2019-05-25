@@ -57,10 +57,10 @@ function setDarkMode() {
     if (window.location.href.indexOf('postres') > -1) {
         theme_postres.setAttribute('href', 'css/postres-dark.css');
     }
-    if (window.location.href.indexOf('tartas') > -1) {
+    if (window.location.href.indexOf('tartas' || 'comidas') > -1) {
         theme_tartas.setAttribute('href', 'css/tartas-dark.css');
     }
-    if (window.location.href.indexOf('tarta-chocolate') > -1) {
+    if (window.location.href.indexOf('tarta-chocolate' || 'tarta-chocolate-nuez' || 'tarta-platano') > -1) {
         theme_receta_tarta.setAttribute('href', 'css/receta-tarta-dark.css');
     }
     facebookC.setAttribute('src', 'imagenes/facebookC.png');
@@ -79,10 +79,10 @@ function setLightMode() {
     if (window.location.href.indexOf('postres') > -1) {
         theme_postres.setAttribute('href', 'css/postres.css')
     }
-    if (window.location.href.indexOf('tartas') > -1) {
+    if (window.location.href.indexOf('tartas' || 'comidas') > -1) {
         theme_tartas.setAttribute('href', 'css/tartas.css')
     }
-    if (window.location.href.indexOf('tarta-chocolate') > -1) {
+    if (window.location.href.indexOf('tarta-chocolate' || 'tarta-chocolate-nuez' || 'tarta-platano') > -1) {
         theme_receta_tarta.setAttribute('href', 'css/receta-tarta.css');
     }
     facebookC.setAttribute('src', 'imagenes/facebook1.png');
