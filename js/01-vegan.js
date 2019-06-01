@@ -62,7 +62,8 @@ function setDarkMode() {
     }
     if (window.location.href.indexOf('tarta-chocolate') > -1
         || window.location.href.indexOf('tarta-chocolate-nuez') > -1
-        || window.location.href.indexOf('tarta-platano') > -1) {
+        || window.location.href.indexOf('tarta-platano') > -1
+        || window.location.href.indexOf( 'camote-relleno') > -1 ) {
         theme_receta_tarta.setAttribute('href', 'css/receta-tarta-dark.css');
     }
     facebookC.setAttribute('src', 'imagenes/facebookC.png');
