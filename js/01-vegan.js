@@ -82,12 +82,15 @@ function setLightMode() {
     if (window.location.href.indexOf('postres') > -1) {
         theme_postres.setAttribute('href', 'css/postres.css')
     }
-    if (window.location.href.indexOf('tartas' || 'comidas') > -1) {
+    if (window.location.href.indexOf('tartas') > -1 || window.location.href.indexOf('comidas') > -1) {
         theme_tartas.setAttribute('href', 'css/tartas.css')
     }
-    if (window.location.href.indexOf('tarta-chocolate' || 'tarta-chocolate-nuez' || 'tarta-platano') > -1) {
-        theme_receta_tarta.setAttribute('href', 'css/receta-tarta.css');
-    }
+    if (window.location.href.indexOf('tarta-chocolate') > -1
+    || window.location.href.indexOf('tarta-chocolate-nuez') > -1
+    || window.location.href.indexOf('tarta-platano') > -1
+    || window.location.href.indexOf( 'camote-relleno') > -1 ) {
+    theme_receta_tarta.setAttribute('href', 'css/receta-tarta.css');
+}
     facebookC.setAttribute('src', 'imagenes/facebook1.png');
     instagramC.setAttribute('src', 'imagenes/instagram1.png');
     twitterC.setAttribute('src', 'imagenes/twitter.png');
