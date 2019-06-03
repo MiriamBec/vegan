@@ -115,7 +115,6 @@ h1{
 }
 
 .ver-mas{
-    font-size: 17px;
     width: 110px;
     height: 40px;
     background-color: rgb(255, 2, 99);
@@ -123,5 +122,11 @@ h1{
     padding: 5px;
     cursor: pointer;
     border: solid 3px rgb(255, 2, 99);
-    color: white;
 }
+
+.ver-mas a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none
+}
+
